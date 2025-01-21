@@ -13,12 +13,12 @@ export default function Dashboard() {
 
     return (
         <div className='flex flex-col flex-1'>
-            <div className='grid grid-cols-1 sm:grid-cols-3 bg-indigo-50 '>
+            <div className='grid grid-cols-1 sm:grid-cols-3 bg-indigo-50 bg-indigo-500'>
                 {Object.keys(statuses).map((status, statusIndex) => {
                     return (
-                        <div key={statusIndex}>
-                            <p className='font-medium uppercase'>{status.replaceAll('_', ' ')}</p>
-                            <p className={' ' + fugaz.className}>{statuses[status]}</p>
+                        <div key={statusIndex} className='p-4'>
+                            <p className='font-medium uppercase text-xs sm:text-sm'>{status.replaceAll('_', ' ')}</p>
+                            <p className={'text-base sm: ' + fugaz.className}>{statuses[status]}</p>
                         </div>
                     )
                 })
