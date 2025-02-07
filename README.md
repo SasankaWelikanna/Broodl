@@ -1,4 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mood Tracking Application
+
+This is a **Mood Tracking Application** built with **Next.js 14**, **Firebase**, and **TailwindCSS**. The application allows users to log their daily emotions, visualize their mood trends over time, and get a better understanding of their mental well-being. 
+
+## Features
+
+- **User Authentication**: Secure login and registration system using Firebase Authentication.
+- **Mood Tracking**: Users can log their daily moods and provide additional descriptions.
+- **Data Visualization**: Display mood trends over time using dynamic charts, powered by **Chart.js**.
+- **Responsive Design**: The application is fully responsive, thanks to **TailwindCSS**.
+- **Real-Time Data Updates**: Uses **Firebase Firestore** for seamless real-time updates.
+
+## Technologies Used
+
+- **Next.js 14**: Framework for building the React application.
+- **Firebase**: Used for user authentication and data storage.
+- **TailwindCSS**: A utility-first CSS framework for fast and responsive design.
+- **Chart.js**: For data visualization of mood trends over time.
+
+## Installation
+
+Follow the steps below to set up and run the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/mood-tracking-app.git
+cd mood-tracking-app
+
 
 ## Getting Started
 
@@ -25,17 +53,4 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 email - test@test.com
 pw - helloworld123
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
