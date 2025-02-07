@@ -17,17 +17,6 @@ This is a **Mood Tracking Application** built with **Next.js 14**, **Firebase**,
 - **TailwindCSS**: A utility-first CSS framework for fast and responsive design.
 - **Chart.js**: For data visualization of mood trends over time.
 
-## Installation
-
-Follow the steps below to set up and run the project locally.
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/mood-tracking-app.git
-cd mood-tracking-app
-
-
 ## Getting Started
 
 First, run the development server:
